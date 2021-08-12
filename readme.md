@@ -8,7 +8,7 @@ from openpyxl.workbook import workbook
 - delimiter='\' - work off tab spacing
 - .columns = ['this', 'is', 'a' ] - list of headers for columns that are defined
 
-### Manipulating the DataFrame
+### Manipulating & Viewing the DataFrame
 ```
 # get data by columns
 print(df.columns)
