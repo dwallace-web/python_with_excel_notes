@@ -23,7 +23,6 @@ print(df.loc[8074:, 'First'])
 print(df.First.str.split(expand=True))
 
 # replace NaN value with empty string
-
 df = df.replace(np.nan, 'No Answer', regex=True)
 print(df)
 to_excel = df.to_excel('modified-clean.xlsx')
